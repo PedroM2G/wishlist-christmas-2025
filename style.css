@@ -1,0 +1,149 @@
+/* Reset básico e tipografia */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* A Grelha Mágica (Responsive Grid) */
+.grid-container {
+    display: grid;
+    /* Cria colunas automáticas com largura mínima de 250px */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* O Cartão do Artigo */
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Efeito ao passar o rato e Acessibilidade (Focus) */
+.card:hover, .card:focus-within {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain; /* Ajusta a imagem inteira dentro da área de 200px */
+    background-color: #f0f0f0; /* Opcional: define uma cor para o espaço vazio */
+}
+
+.card-content {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* Botão Acessível */
+.btn {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #0056b3;
+    outline: 3px solid #ffbf47; /* Outline visível para navegação por teclado */
+}
+/* --- Estilos Gerais para os Controlos --- */
+.sort-controls {
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sort-controls div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sort-controls label {
+    font-weight: bold;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+/* --- Estilo para TODOS os Selects (Ordenação e Filtro) --- */
+.sort-controls select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    min-width: 150px; /* Garante que os menus têm um tamanho base igual */
+    
+    /* Look moderno: remove a seta padrão e adiciona uma personalizada */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="292.4" height="292.4" fill="%23666666"><path d="M287 64.9c-4.2-4.2-11-4.2-15.2 0L146.2 189.6 20.6 64.9c-4.2-4.2-11-4.2-15.2 0s-4.2 11 0 15.2l133.6 133.6c2.1 2.1 4.8 3.1 7.6 3.1s5.5-1 7.6-3.1L287 80.1c4.2-4.2 4.2-11 0-15.2z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 10px;
+    padding-right: 35px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.sort-controls select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+    outline: none;
+}
+
+/* Ajuste para telemóveis: se o ecrã for pequeno, os filtros ocupam a largura toda */
+@media (max-width: 600px) {
+    .sort-controls {
+        justify-content: center;
+    }
+    .sort-controls div {
+        width: 100%;
+        justify-content:空间-between;
+    }
+    .sort-controls select {
+        flex-grow: 1;
+    }
+}

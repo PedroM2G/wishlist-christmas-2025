@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "pessoa": "Pedro",
+    "nome": "Millennium Falcon",
+    "preco": "849.99",
+    "imagem": "img/millenium_falcon.webp",
+    "url": "https://www.lego.com/pt-pt/product/millennium-falcon-75192"
+  },
+  {
+    "id": 2,
+    "pessoa": "Pedro",
+    "nome": "Carro Ferrari technic SF-24 F1",
+    "preco": "229.99",
+    "imagem": "img/f1.webp",
+    "url": "https://www.lego.com/pt-pt/product/ferrari-sf-24-f1-car-42207"
+  },
+  {
+    "id": 3,
+    "pessoa": "Pedro",
+    "nome": "Wowow GO 2S Max",
+    "preco": "299.99",
+    "imagem": "img/2SMAX.webp",
+    "url": "https://wowgoboard.com/products/wowgo-2s-max?currency=USD&variant=44366793867529&utm_source=google&utm_medium=cpc&utm_campaign=Google%20Shopping&stkn=4883ab8ea8ff&gad_source=1&gad_campaignid=19689696602&gbraid=0AAAAACUDOBIkO2KLFm5qhr-03PCLZEqeN&gclid=Cj0KCQiAo4TKBhDRARIsAGW29bf0va3hN1iJ85a5SIkPBHRbfcdPxsMgLIs4dgfLrXiyFg4icn8P6LMaAvNOEALw_wcB"
+  },
+  {
+    "id": 4,
+    "pessoa": "Pedro",
+    "nome": "Moeda 1/2 oz Austrália 2026 Baby Horse Prata Proof",
+    "preco": "65.00",
+    "imagem": "img/horse_coin.jpg",
+    "url": "https://mynumis.pt/produto/1-2-oz-australia-baby-horse-2026/"
+  },
+  {
+    "id": 5,
+    "pessoa": "Pedro",
+    "nome": "5 Moedas Celebração do Ano Novo Lunar China 2024",
+    "preco": "175.00",
+    "imagem": "img/new_year_china_2024.jpg",
+    "url": "https://mynumis.pt/produto/1-celebracao-do-ano-novo-lunar-china-2024/"
+  },
+  {
+    "id": 6,
+    "pessoa": "Pedro",
+    "nome": "Aspirador Vertical Xiaomi G20 Lite Branco",
+    "preco": "66.07",
+    "imagem": "img/g20_lite.png",
+    "url": "https://www.kuantokusta.pt/p/11309784/xiaomi-g20-lite-branco?utm_source=google&utm_medium=cpc&utm_campaign={campaign}&utm_content=pmax&gad_source=1&gad_campaignid=17336169720&gbraid=0AAAAADp2bx642vqaz75-dT2sX7yjFB1xk&gclid=Cj0KCQiAo4TKBhDRARIsAGW29bd3I5axhU-_dicmmmIg29i89wd3LC_Z5LuGcO4ZYbIzjbtHpyaYRTgaAhdNEALw_wcB"
+  },
+  {
+    "id": 7,
+    "pessoa": "Pedro",
+    "nome": "Figura Pop! Sasuke Uchiha (1436)",
+    "preco": "15.99",
+    "imagem": "img/sasuke.jpg",
+    "url": "https://www.fnac.pt/POP-VINYL-SASUKE-UCHIHA-1436-Naruto-Objecto-derivado/a11504464?origin=fnac_pla_fl_outras"
+  },
+  {
+    "id": 8,
+    "pessoa": "Pedro",
+    "nome": "Jogo Bombusters",
+    "preco": "37.64",
+    "imagem": "img/bombusters.jpg",
+    "url": "https://www.amazon.es/dp/B0DKFYMTXD/ref=asc_df_B0DKFYMTXD?mcid=f5bd983ed099354ea96c7b49ad779070&language=pt_PT&tag=ptgogshpadde-21&linkCode=df0&hvadid=718339829730&hvpos=&hvnetw=g&hvrand=16127145378123946258&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1011706&hvtargid=pla-2370216287020&psc=1&language=pt_PT&gad_source=1"
+  },
+  {
+    "id": 9,
+    "pessoa": "Pedro",
+    "nome": "Boxers homem bolacha pai Natal",
+    "preco": "9.90",
+    "imagem": "img/boxers.jpg",
+    "url": "https://www.intimissimi.com/pt/product/boxers_em_algodao_superior_estampado_boneco_de_gengibre_-_menino-SBB91A.html?kk=a4c6295-19b2949cf01-35b9d&kgclid=Cj0KCQiAo4TKBhDRARIsAGW29be4L_vGSxlfmIiZ1FJoDp0yLbPbi2Nij6CLG_qQhbiPAwFRPfeuW0EaAgspEALw_wcB&dwvar_SBB91A_Z_COL_INT=800&utm_source=kelkoopt&utm_medium=affiliate&utm_campaign=%5BPT_AFF%5D_Intimissimi_comparatori&utm_source_platform=KelkooGroup&adfcd=1768516306.17FBwnn9fkunr0XxVZ0QnA.Mjk2Njk3OCwyMDQ0ODEw"
+  },
+  {
+    "id": 10,
+    "pessoa": "Daniela",
+    "nome": "Mochila",
+    "preco": "99.00",
+    "imagem": "img/backpack.webp",
+    "url": "https://www.deporvillage.pt/mochila-fjallraven-kanken-mini-7-l-grafite"
+      },
+  {
+    "id": 11,
+    "pessoa": "Daniela",
+    "nome": "Colar Tous",
+    "preco": "65.00",
+    "imagem": "img/Colartous.avif",
+    "url": "https://www.tous.com/pt-pt/colar-galaxy-de-prata/p/1000137800-C.html"
+          },
+  {
+    "id": 12,
+    "pessoa": "Daniela",
+    "nome": "Botas UGG.Tamanho 37",
+    "preco": "15.99",
+    "imagem": "img/Botasugg.jpg",
+    "url": "https://mo-online.com/pt/botas-mulher-bege/000041145659001.html?utm_source=google&utm_medium=cpc&utm_campaign=PT_Google_Sales_Shopping_BOFU_Textil_PMAX_Mulher&utm_id=16480094086&gad_source=1&gad_campaignid=16480096522&gbraid=0AAAAADm6fB7ein-LIhatQKJp5tYU2GGnm&gclid=Cj0KCQiAo4TKBhDRARIsAGW29beAoZCqjT0CKXziwWonhMwaJPtV80nvZVHKrI_cSjrpHygz2kwuZPsaAi7TEALw_wcB"
+  }
+]

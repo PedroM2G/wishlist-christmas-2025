@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist Natal 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Wishlist Natal 2025</h1>
+    </header>
+
+    <main>
+        <div class="sort-controls">
+            <div>
+                <label for="filter-pessoa">Ver para:</label>
+                <select id="filter-pessoa">
+                    </select>
+            </div>
+
+            <div>
+                <label for="sort-select">Ordenar por:</label>
+                <select id="sort-select">
+                    <option value="default">Recentes</option>
+                    <option value="asc">Preço: Baixo</option>
+                    <option value="desc">Preço: Alto</option>
+                </select>
+            </div>
+        </div>
+        
+        <div id="grid-artigos" class="grid-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
